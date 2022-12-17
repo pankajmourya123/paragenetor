@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 80%;
+    min-height: 100vh;        /*  yaha par pata nahi kitna height yaa text hogaa */
+    margin: auto;
+    background-color: white;
+    padding: 100px 50px;
+    background-color: grey;
+}
+
+.paras{
+    background-color: aliceblue;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#numOfwords{
+    background-color:rgba(109, 9, 9, 0.175);
+    padding:10px;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid white;
+    font: 100 1.3rem sans-serif;
+}
+
+button{
+    background-color: antiquewhite;
+    color:crimson;
+    padding: 20px;
+    border: none;
+    font: 100 1rem sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color:black;
+}
+
+#numOfwords::placeholder{
+    color: black;
+}
